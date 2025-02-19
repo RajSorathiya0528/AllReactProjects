@@ -1,0 +1,70 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(40, 40, 40);
+    font-family: sans-serif;
+}
+.header{
+    text-align: center;
+    font-size: 22px;
+    color:  rgb(157, 255, 0);
+}
+.message-box{
+    text-align: center;
+    height: 80vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.message{
+    font-size: 20px;
+    color: rgb(157, 255, 0);;
+}
+
+.Game-Box{
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Game{
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+.Game-Button{
+    height: 15vmin;
+    width: 15vmin;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 72px;
+    color: rgb(157, 255, 0);
+    border: 5px solid rgb(255, 0, 170);
+}
+.reset{
+    text-align: center;
+}
+.ResetBtn{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(157, 255, 0);
+    font-size: 20px;
+    border-radius: 10px;
+}
+.New-Game{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(157, 255, 0);
+    font-size: 20px;
+    border-radius: 10px;
+}
+.hide{
+    display: none;
+}
